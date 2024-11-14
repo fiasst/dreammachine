@@ -357,7 +357,7 @@
     },
     "\/assets\/images\/img1.jpg" : {
       "ft" : 16384,
-      "iS" : 1046284,
+      "iS" : 767339,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/assets\/images\/img1.jpg",
@@ -370,7 +370,7 @@
     },
     "\/assets\/images\/img2.jpg" : {
       "ft" : 16384,
-      "iS" : 978122,
+      "iS" : 575525,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/assets\/images\/img2.jpg",
@@ -383,7 +383,7 @@
     },
     "\/assets\/images\/img3.jpg" : {
       "ft" : 16384,
-      "iS" : 694537,
+      "iS" : 457292,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/assets\/images\/img3.jpg",
@@ -396,7 +396,7 @@
     },
     "\/assets\/images\/img4.jpg" : {
       "ft" : 16384,
-      "iS" : 984241,
+      "iS" : 657401,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/assets\/images\/img4.jpg",
@@ -415,7 +415,7 @@
       "oAP" : "\/assets\/images\/img5.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -428,7 +428,7 @@
       "oAP" : "\/assets\/images\/img5a.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -441,7 +441,7 @@
       "oAP" : "\/assets\/images\/img5b.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -454,7 +454,7 @@
       "oAP" : "\/assets\/images\/img5c.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -467,7 +467,7 @@
       "oAP" : "\/assets\/images\/img6.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -506,7 +506,7 @@
       "oAP" : "\/assets\/images\/img6c.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -519,7 +519,7 @@
       "oAP" : "\/assets\/images\/img7.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -532,7 +532,7 @@
       "oAP" : "\/assets\/images\/img7a.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -545,7 +545,7 @@
       "oAP" : "\/assets\/images\/img7b.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -558,7 +558,7 @@
       "oAP" : "\/assets\/images\/img7c.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -571,7 +571,7 @@
       "oAP" : "\/assets\/images\/img8.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -584,7 +584,7 @@
       "oAP" : "\/assets\/images\/img8a.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -597,7 +597,7 @@
       "oAP" : "\/assets\/images\/img8b.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -610,7 +610,7 @@
       "oAP" : "\/assets\/images\/img8c.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -634,8 +634,8 @@
       "oA" : 0,
       "oAP" : "\/assets\/images\/logo.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -655,14 +655,6 @@
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
-    },
-    "\/assets\/videos\/hero.mp4" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/assets\/videos\/hero.mp4",
-      "oF" : 0
     },
     "\/index.html" : {
       "cB" : 0,
