@@ -165,7 +165,7 @@
                 <div class="copy">
                     <h1>Invest in Phuket</h1>
                     <h2 class="subtitle">Express your interest today</h2>
-                    <p>We’re seeking local and international investors to help us redefine hospitality in Phuket. If this resonates with you, get in touch today — or pass this along to an associate who may be interested.</p>
+                    <p>We’re seeking local and international investors to join us in redefining hospitality in Phuket. If this resonates with you, get in touch today — or pass this along to an associate who may be interested.</p>
                     <div class="actions">
                         <a href="#enquire" class="btn primary">Express interest</a>
                         <a href="#" class="btn">Share</a>
@@ -371,7 +371,7 @@
     </section>
 
     <section id="footer">
-        <span>&copy; 2024 Dream Machine Hospitality Group</span>
+        <span>&copy; <span class="year">2024</span> Dream Machine Hospitality Group</span>
     </section>
 </div>
 
@@ -388,6 +388,9 @@ $(function () {
         maxSlides: 1,
         moveSlides: 1
     });
+
+    const date = new Date();
+    $('#footer .year').text( date.getFullYear() );
 
     $('.toggle-target').on('change', function () {
         const targetSelector = $(this).data('target');
