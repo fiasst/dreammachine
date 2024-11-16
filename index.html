@@ -15,7 +15,7 @@
 </head>
 <body>
 <div id="wrapper">
-    <section class="section" id="hero">
+    <section class="section no-bg overlay" id="hero">
         <div class="container">
             <a href="/" class="logo"></a>
             <div class="hero-content">
@@ -33,10 +33,8 @@
             </div>
         </div>
         <div class="bg">
-            <video autoplay loop muted playsinline data-object-fit="cover"  data-wf-ignore="true">
-<!--                <source src="/media/cc0-videos/hero.webm" type="video/webm" />-->
-                <source src="assets/videos/hero.mp4" type="video/mp4" />
-            </video>
+            <iframe src="https://player.vimeo.com/video/1030285695?background=1&autoplay=1&loop=1&muted=1&badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write"></iframe>
+            <script src="https://player.vimeo.com/api/player.js"></script>
         </div>
     </section>
 
@@ -64,7 +62,7 @@
         </div>
     </section>
 
-    <section class="section" id="grid">
+    <section class="section h-auto" id="grid">
         <div class="container">
             <div class="row">
                 <div class="col-sm-6 col-lg-3 vm-stack">
@@ -120,6 +118,43 @@
         </div>
     </section>
 
+    <section class="section h-auto" id="approach">
+        <div class="container">
+            <h1>Our Approach</h1>
+            <h2 class="subtitle">Driven by passion</h2>
+            <div class="copy">
+                <p>Having identified market gaps we seek out suitable distressed or mismanaged properties to acquire in high-traffic areas with minimal downside risk. Where possible we bundle complimentary services together within each property and vertically integrate operations to maximise customer retention, efficiency and ROI.</p>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4 vm-teaser">
+                    <div class="img">
+                        <h4 class="h5 black lite">In development</h4>
+                        <img src="assets/images/teaser-1.png" class="img-fluid" />
+                    </div>
+                    <h3 class="h5">Phuket Social</h3>
+                    <a href="#enquire" class="cta">More information</a>
+                </div>
+                <div class="col-md-4 vm-teaser">
+                    <div class="img">
+                        <h4 class="h5 black lite">Coming soon</h4>
+                        <img src="assets/images/teaser-2.png" class="img-fluid" />
+                    </div>
+                    <h3 class="h5">Crafted Burger Co.</h3>
+                    <a href="#enquire" class="cta">More information</a>
+                </div>
+                <div class="col-md-4 vm-teaser">
+                    <div class="img">
+                        <h4 class="h5 black lite">Coming soon</h4>
+                        <img src="assets/images/teaser-3.png" class="img-fluid" />
+                    </div>
+                    <h3 class="h5">Fire</h3>
+                    <a href="#enquire" class="cta">More information</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section class="section box-left" id="invest">
         <div class="container">
             <div class="content-box">
@@ -133,6 +168,193 @@
                     </div>
                 </div>
             </div>
+        </div>
+    </section>
+
+    <section class="section no-bg" id="enquire">
+        <div class="container">
+            <form id="investor-form" action="https://formspree.io/f/xwpkbglz" method="post">
+                <div id="form-status">test</div>
+                <h1 class="h2">Expression Of Interest</h1>
+                <h2 class="subtitle">Turn Vision into Value</h2>
+                <div class="progress-wrapper step1">
+                    <div class="progress-labels">
+                        <span class="active">Personal</span>
+                        <span>Investment</span>
+                        <span>Comments</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="p step1"></div>
+                    </div>
+                </div>
+
+                <!-- Personal Information -->
+                <div class="step1 step active form-items">
+                    <div class="form-pair">
+                        <div class="form-item required">
+                            <label for="name">Full Name:</label>
+                            <input type="text" id="name" name="name" class="form-text" required>
+                        </div>
+
+                        <div class="form-item required">
+                            <label for="email">Email Address:</label>
+                            <input type="email" id="email" name="email" class="form-text" required>
+                        </div>
+                    </div>
+
+                    <div class="form-pair">
+                        <div class="form-item required">
+                            <label for="phone">Phone Number:</label>
+                            <input type="tel" id="phone" name="phone" class="form-text" required value="+66">
+                        </div>
+
+                        <div class="form-item required">
+                            <label for="location">Country of Residence:</label>
+                            <input type="text" id="location" name="location" class="form-text" required>
+                        </div>
+                    </div>
+
+                    <!-- Background & Experience -->
+                    <div class="form-pair">
+                        <div class="form-item required">
+                            <label>Previous Investment in Hospitality:</label>
+                            <select id="previous-investment" name="previous_investment" class="form-select toggle-target" data-target="#investment-experience" required>
+                                <option value="">Select</option>
+                                <option value="Yes">Yes</option>
+                                <option value="No">No</option>
+                            </select>
+                            <textarea id="investment-experience" rows="3" name="investment_experience" class="form-textarea" placeholder="Please briefly describe your experience" style="display:none;"></textarea>
+                        </div>
+
+                        <div class="form-item required">
+                            <label>Other Investments:</label>
+                            <select id="other-investments" name="other_investments" class="form-select toggle-target" data-target="#other-investment-details" required>
+                                <option value="">Select</option>
+                                <option value="Yes">Yes</option>
+                                <option value="No">No</option>
+                            </select>
+                            <textarea id="other-investment-details" rows="3" name="other_investment_details" class="form-textarea" placeholder="Please briefly describe your other investments" style="display:none;"></textarea>
+                        </div>
+                    </div>
+
+                    <div class="actions">
+                        <button type="button" class="btn primary arrow-r js-continue">Continue</button>
+                    </div>
+                </div>
+
+
+                <!-- Investment Interest -->
+                <div class="step2 step form-items">
+                    <div class="form-pair">
+                        <div class="form-item required">
+                            <label>Preferred Role:</label>
+                            <select id="role" name="role" class="form-select" required>
+                                <option value="">Select</option>
+                                <option value="Active">Active</option>
+                                <option value="Passive">Passive</option>
+                                <option value="Unsure">Unsure</option>
+                            </select>
+                        </div>
+
+                        <div class="form-item required">
+                            <label>Preferred Involvement:</label>
+                            <select id="involvement" name="involvement" class="form-select" required>
+                                <option value="">Select</option>
+                                <option value="Weekly involvement">Weekly involvement</option>
+                                <option value="Monthly Updates">Monthly Updates</option>
+                                <option value="Quarterly Meetings">Quarterly Meetings</option>
+                                <option value="Annual Reviews">Annual Reviews</option>
+                                <option value="No Preference">No Preference</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-pair">
+                        <div class="form-item required">
+                            <label for="investment-amount">Preferred Investment:</label>
+                            <select id="investment-amount" name="investment_amount" class="form-select" required>
+                                <option value="">Select Amount (USD)</option>
+                                <option value="100,000-250,000">$100,000-$250,000</option>
+                                <option value="250,000-500,000">$250,000-$500,000</option>
+                                <option value="500,000-1,000,000">$500,000-$1,000,000</option>
+                                <option value="1,000,000-2,000,000">$1,000,000-$2,000,000</option>
+                                <option value="2,000,000+">$2,000,000+</option>
+                            </select>
+                        </div>
+
+                        <div class="form-item required">
+                            <label for="commitment">Commitment:</label>
+                            <select id="commitment" name="commitment" class="form-select" required>
+                                <option value="">Select Duration</option>
+                                <option value="1-5">1-5 years</option>
+                                <option value="5-10">5-10 years</option>
+                                <option value="10+">10+ years</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-pair">
+                        <!-- Investment Motivation -->
+                        <div class="form-item required">
+                            <label>Motivation:</label>
+                            <select id="motivation" name="motivation" class="form-select toggle-target" data-target="#motivation-other" required multiple>
+                                <option value="Potential Returns">Potential Returns</option>
+                                <option value="Interest in Industry">Interest in Industry</option>
+                                <option value="Diversify Portfolio">Diversify Portfolio</option>
+                                <option value="Purpose / Enjoyment">Purpose / Enjoyment</option>
+                                <option value="Other">Other</option>
+                            </select>
+                            <textarea id="motivation-other" rows="3" name="motivation_other" class="form-textarea" placeholder="Please briefly describe your motivation" style="display:none;"></textarea>
+                        </div>
+
+                        <div class="form-item required">
+                            <label for="business-type">Preferred Investments:</label>
+                            <select id="business-type" name="business_type" class="form-select" required multiple>
+                                <option value="Bar & Restaurant">Bar & Restaurant</option>
+                                <option value="Boutique Hotel">Boutique Hotel</option>
+                                <option value="Beach Club">Beach Club</option>
+                                <option value="Resort">Resort</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="actions">
+                        <button class="btn link js-back" data-step="1">Back</button>
+                        <button type="button" class="btn primary arrow-r js-continue">Continue</button>
+                    </div>
+                </div>
+
+                <!-- Timeline & Availability -->
+                <div class="step3 step form-items">
+                    <div class="form-pair">
+                        <div class="form-item required">
+                            <label for="start-timeline">When would you like to start?</label>
+                            <select id="start-timeline" name="start_timeline" class="form-select" required>
+                                <option value="">Select Timeline</option>
+                                <option value="Within 3 months">Within 3 months</option>
+                                <option value="3-6 months">3-6 months</option>
+                                <option value="6-12 months">6-12 months</option>
+                                <option value="Flexible">Flexible</option>
+                            </select>
+                        </div>
+
+                        <div class="form-item">
+                            <label for="comments">Additional Comments:</label>
+                            <textarea id="comments" rows="4" name="comments" class="form-textarea" placeholder="Any additional comments or questions?"></textarea>
+                        </div>
+                    </div>
+
+                    <div class="actions">
+                        <button class="btn link js-back" data-step="2">Back</button>
+                        <button type="submit" class="btn primary">Submit</button>
+                    </div>
+                </div>
+            </form>
+
+        </div>
+        <div class="bg">
+            <iframe src="https://player.vimeo.com/video/1030282154?background=1&autoplay=1&loop=1&muted=1&badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write"></iframe>
+            <script src="https://player.vimeo.com/api/player.js"></script>
         </div>
     </section>
 
@@ -151,13 +373,89 @@
 
 
 <script>
-$(document).ready(function(){
+$(function () {
     $('.slider').bxSlider({
         preloadImages: 'all',
         pager: false,
         auto: false,
         slideWidth: 500
     });
+
+    $('.toggle-target').on('change', function () {
+        const targetSelector = $(this).data('target');
+        const selectedValues = $(this).val();
+        // Check if the field is a multiple-select and if it contains 'yes' or 'other'
+        const showField = Array.isArray(selectedValues)
+            ? selectedValues.includes('Yes') || selectedValues.includes('Other')
+            : selectedValues === 'Yes' || selectedValues === 'Other';
+        $(targetSelector).toggle(showField);
+    });
+
+    $('.js-continue').on('click', function () {
+        const currentStep = $(this).closest('.step');
+        const nextStep = currentStep.next('.step');
+        const stepIndex = $('.step').index(nextStep) + 1;
+
+        // Validate the current step's fields
+        const inputs = currentStep.find('input, select, textarea');
+        let isValid = true;
+
+        inputs.each(function () {
+            if (!this.checkValidity()) {
+                this.reportValidity();
+                isValid = false;
+                return false;
+            }
+        });
+
+        if (isValid) {
+            currentStep.removeClass('active');
+            nextStep.addClass('active');
+            $('.progress-wrapper').removeClass('step1 step2').addClass('step' + stepIndex);
+        }
+    });
+
+    $('.js-back').on('click', function () {
+        const currentStep = $(this).closest('.step');
+        const prevStep = currentStep.prev('.step');
+        // const stepIndex = prevStep.index();
+        const stepIndex = $('.step').index(prevStep) + 1;
+        currentStep.removeClass('active');
+        prevStep.addClass('active');
+        $('.progress-wrapper').removeClass('step3 step2').addClass('step' + stepIndex);
+    });
+
+    let form = $("#investor-form");
+    async function handleSubmit(event) {
+        event.preventDefault();
+        let status = $("#form-status"),
+            data = new FormData(event.target),
+        errorText = "Sorry, there was a problem submitting your form";
+
+        fetch(event.target.action, {
+            method: form.method,
+            body: data,
+            headers: {
+                'Accept': 'application/json'
+            }
+        }).then(response => {
+            if (response.ok) {
+                status.text("Thanks for your expression of interest!").show();
+                form.reset()
+            } else {
+                response.json().then(data => {
+                    if (Object.hasOwn(data, 'errors')) {
+                    status.text(data["errors"].map(error => error["message"]).join(", ")).show();
+                    } else {
+                        status.text(errorText).show();
+                    }
+                })
+            }
+        }).catch(error => {
+            status.text(errorText).show();
+        });
+    }
+    form.on("submit", handleSubmit);
 });
 </script>
 </body>
