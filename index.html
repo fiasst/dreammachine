@@ -441,7 +441,7 @@ $(function () {
         errorText = "Sorry, there was a problem submitting your form";
 
         fetch(event.target.action, {
-            method: form.method,
+            method: form.attr('method'),
             body: data,
             headers: {
                 'Accept': 'application/json'
@@ -449,7 +449,7 @@ $(function () {
         }).then(response => {
             if (response.ok) {
                 status.text("Thanks for your expression of interest!").show();
-                form.reset()
+                form[0].reset()
             } else {
                 response.json().then(data => {
                     if (Object.hasOwn(data, 'errors')) {
