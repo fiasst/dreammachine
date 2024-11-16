@@ -355,6 +355,100 @@
       "oF" : 0,
       "pg" : 0
     },
+    "\/assets\/images\/favicons\/android-chrome-192x192.png" : {
+      "ft" : 32768,
+      "iS" : 11277,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/favicons\/android-chrome-192x192.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/images\/favicons\/android-chrome-512x512.png" : {
+      "ft" : 32768,
+      "iS" : 44778,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/favicons\/android-chrome-512x512.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/images\/favicons\/apple-touch-icon.png" : {
+      "ft" : 32768,
+      "iS" : 10129,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/favicons\/apple-touch-icon.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/images\/favicons\/fav.png" : {
+      "ft" : 32768,
+      "iS" : 5112,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/favicons\/fav.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/images\/favicons\/favicon-16x16.png" : {
+      "ft" : 32768,
+      "iS" : 408,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/favicons\/favicon-16x16.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/images\/favicons\/favicon-32x32.png" : {
+      "ft" : 32768,
+      "iS" : 957,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/favicons\/favicon-32x32.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/images\/favicons\/favicon.ico" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/favicons\/favicon.ico",
+      "oF" : 0
+    },
+    "\/assets\/images\/favicons\/site.webmanifest" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/favicons\/site.webmanifest",
+      "oF" : 0
+    },
     "\/assets\/images\/icon-chevron.png" : {
       "ft" : 32768,
       "iS" : 353,
@@ -746,7 +840,7 @@
     "creationDate" : 753277566.74579501,
     "displayValue" : "Dream Machine",
     "displayValueWasSetByUser" : 0,
-    "iconImageName" : "brackets-cafe",
+    "iconImageName" : "\/assets\/images\/favicons\/apple-touch-icon.png",
     "iconImageWasSetByUser" : 0
   },
   "projectSettings" : {
