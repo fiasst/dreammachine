@@ -382,7 +382,11 @@ $(function () {
         preloadImages: 'all',
         pager: false,
         auto: false,
-        slideWidth: 500
+        slideMargin: 0,
+        slideWidth: 0,
+        minSlides: 1,
+        maxSlides: 1,
+        moveSlides: 1
     });
 
     $('.toggle-target').on('change', function () {
