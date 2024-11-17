@@ -312,12 +312,12 @@ a {
 .logo {
   background: url('../images/logo.png') no-repeat center center;
   background-size: 100% auto;
-  width: 190px;
+  width: 220px;
   height: 56px;
   display: block;
 
   @media screen and (min-width: 768px) {
-    width: 230px;
+    width: 240px;
     height: 70px;
   }
 }
