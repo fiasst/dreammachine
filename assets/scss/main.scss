@@ -806,12 +806,20 @@ textarea {
 
 #footer {
   padding: 40px;
-  text-transform: uppercase;
-  font-size: 11px;
-  letter-spacing: 0.12em;
   color: #bdb6a4;
 
-  @media screen and (min-width: 768px) {
-    font-size: 13px;
+  p {
+    font-size: 11px;
+    margin: 0;
+    line-height: 14px;
+
+    + p {
+      margin-top: 8px;
+    }
+  }
+  .copyright {
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    margin-bottom: 32px;
   }
 }
