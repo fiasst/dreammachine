@@ -357,7 +357,7 @@
     },
     "\/assets\/images\/favicons\/android-chrome-192x192.png" : {
       "ft" : 32768,
-      "iS" : 11277,
+      "iS" : 9139,
       "oA" : 0,
       "oAP" : "\/assets\/images\/favicons\/android-chrome-192x192.png",
       "oF" : 0,
@@ -370,7 +370,7 @@
     },
     "\/assets\/images\/favicons\/android-chrome-512x512.png" : {
       "ft" : 32768,
-      "iS" : 44778,
+      "iS" : 35342,
       "oA" : 0,
       "oAP" : "\/assets\/images\/favicons\/android-chrome-512x512.png",
       "oF" : 0,
@@ -383,7 +383,7 @@
     },
     "\/assets\/images\/favicons\/apple-touch-icon.png" : {
       "ft" : 32768,
-      "iS" : 10129,
+      "iS" : 8217,
       "oA" : 0,
       "oAP" : "\/assets\/images\/favicons\/apple-touch-icon.png",
       "oF" : 0,
@@ -400,8 +400,8 @@
       "oA" : 0,
       "oAP" : "\/assets\/images\/favicons\/fav.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -409,7 +409,7 @@
     },
     "\/assets\/images\/favicons\/favicon-16x16.png" : {
       "ft" : 32768,
-      "iS" : 408,
+      "iS" : 330,
       "oA" : 0,
       "oAP" : "\/assets\/images\/favicons\/favicon-16x16.png",
       "oF" : 0,
@@ -422,7 +422,7 @@
     },
     "\/assets\/images\/favicons\/favicon-32x32.png" : {
       "ft" : 32768,
-      "iS" : 957,
+      "iS" : 787,
       "oA" : 0,
       "oAP" : "\/assets\/images\/favicons\/favicon-32x32.png",
       "oF" : 0,
