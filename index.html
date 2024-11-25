@@ -481,7 +481,7 @@ $(function () {
             }
         }).then(response => {
             if (response.ok) {
-                status.text("Thanks for your expression of interest!").show();
+                status.text("Thank you for your expression of interest. We will be in touch shortly.").show();
                 form[0].reset()
             } else {
                 response.json().then(data => {
