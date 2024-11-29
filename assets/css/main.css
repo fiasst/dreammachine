@@ -471,12 +471,17 @@ a.cta:hover {
   position: relative;
   margin: 0 0 12px;
 }
-#approach .img .h5 {
+#approach .img .copy {
   position: absolute;
   top: 50%;
   left: 50%;
   z-index: 2;
   transform: translate(-50%, -50%);
+}
+#approach .img p {
+  color: #000;
+  font-size: 0.8rem;
+  line-height: 1.2;
 }
 @media screen and (min-width: 768px) {
   #approach .row {
@@ -609,7 +614,8 @@ a.cta:hover {
   border-radius: 6px;
   color: #fff;
   z-index: 9999;
-  max-width: 800px;
+  max-width: 600px;
+  width: 80%;
   display: none;
 }
 
